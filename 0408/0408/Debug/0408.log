@@ -1,0 +1,27 @@
+﻿빌드 시작: 2020-04-08 오후 9:31:33
+     1>2 노드의 "C:\Users\osm96\Desktop\sample\0408\0408\0408.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt 0408.c
+         0408.c
+     1>c:\users\osm96\desktop\sample\0408\0408\0408.c(47): warning C4047: '함수' : 'const char *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+     1>c:\users\osm96\desktop\sample\0408\0408\0408.c(47): warning C4024: 'printf' : 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+     1>c:\users\osm96\desktop\sample\0408\0408\0408.c(68): warning C4550: 식이 인수 목록이 없는 함수로 계산됩니다.
+     1>c:\users\osm96\desktop\sample\0408\0408\0408.c(83): warning C4550: 식이 인수 목록이 없는 함수로 계산됩니다.
+     1>c:\users\osm96\desktop\sample\0408\0408\0408.c(41): warning C4716: 'initarr' : 값을 반환해야 합니다.
+     1>c:\users\osm96\desktop\sample\0408\0408\0408.c(70): warning C4716: 'Insertarr' : 값을 반환해야 합니다.
+     1>c:\users\osm96\desktop\sample\0408\0408\0408.c(49): warning C4716: 'printarr' : 값을 반환해야 합니다.
+     1>c:\users\osm96\desktop\sample\0408\0408\0408.c(85): warning C4716: 'deletearr' : 값을 반환해야 합니다.
+     1>c:\users\osm96\desktop\sample\0408\0408\0408.c(78): warning C4700: 초기화되지 않은 'index' 지역 변수를 사용했습니다.
+     1>c:\users\osm96\desktop\sample\0408\0408\0408.c(65): warning C4700: 초기화되지 않은 'index' 지역 변수를 사용했습니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\osm96\Desktop\sample\0408\Debug\0408.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\osm96\Desktop\sample\0408\Debug\0408.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\osm96\Desktop\sample\0408\Debug\0408.lib" /MACHINE:X86 Debug\0408.obj
+         "Debug\소스.obj"
+     1>소스.obj : error LNK2005: _deletearr이(가) 0408.obj에 이미 정의되어 있습니다.
+     1>소스.obj : error LNK2005: _main이(가) 0408.obj에 이미 정의되어 있습니다.
+     1>소스.obj : error LNK2005: _printarr이(가) 0408.obj에 이미 정의되어 있습니다.
+     1>C:\Users\osm96\Desktop\sample\0408\Debug\0408.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
+     1>"C:\Users\osm96\Desktop\sample\0408\0408\0408.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:00.67

@@ -1,0 +1,23 @@
+﻿빌드 시작: 2020-04-24 오후 8:53:48
+     1>2 노드의 "C:\Users\osm96\Desktop\sample\0424_1\0424_1\0424_1.vcxproj" 프로젝트(Build 대상)입니다.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (0424_1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt control.c
+         control.c
+     1>c:\users\osm96\desktop\sample\0424_1\0424_1\control.c(20): error C2143: 구문 오류 : ';'이(가) '{' 앞에 없습니다.
+     1>c:\users\osm96\desktop\sample\0424_1\0424_1\control.c(22): error C2143: 구문 오류 : ';'이(가) '{' 앞에 없습니다.
+     1>c:\users\osm96\desktop\sample\0424_1\0424_1\control.c(24): error C2143: 구문 오류 : ';'이(가) '{' 앞에 없습니다.
+     1>c:\users\osm96\desktop\sample\0424_1\0424_1\control.c(25): error C2143: 구문 오류 : ';'이(가) '{' 앞에 없습니다.
+     1>c:\users\osm96\desktop\sample\0424_1\0424_1\control.c(27): error C2143: 구문 오류 : ';'이(가) '{' 앞에 없습니다.
+     1>c:\users\osm96\desktop\sample\0424_1\0424_1\control.c(32): error C2065: 'number' : 선언되지 않은 식별자입니다.
+     1>c:\users\osm96\desktop\sample\0424_1\0424_1\control.c(33): warning C4098: 'con_selectall' : 'void' 함수에서 값을 반환하고 있습니다.
+     1>c:\users\osm96\desktop\sample\0424_1\0424_1\control.c(35): warning C4098: 'con_selectall' : 'void' 함수에서 값을 반환하고 있습니다.
+     1>c:\users\osm96\desktop\sample\0424_1\0424_1\control.c(39): error C2143: 구문 오류 : ';'이(가) '{' 앞에 없습니다.
+     1>c:\users\osm96\desktop\sample\0424_1\0424_1\control.c(39): warning C4098: 'con_selectall' : 'void' 함수에서 값을 반환하고 있습니다.
+     1>c:\users\osm96\desktop\sample\0424_1\0424_1\control.c(41): error C2143: 구문 오류 : ';'이(가) '{' 앞에 없습니다.
+     1>c:\users\osm96\desktop\sample\0424_1\0424_1\control.c(44): fatal error C1075: 왼쪽 중괄호 '{'(위치: 'c:\users\osm96\desktop\sample\0424_1\0424_1\control.c(41)')이(가) 짝이 되기 전에 파일의 끝이 나타났습니다.
+     1>"C:\Users\osm96\Desktop\sample\0424_1\0424_1\0424_1.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:00.31

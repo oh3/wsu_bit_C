@@ -1,0 +1,12 @@
+﻿빌드 시작: 2020-04-23 오후 9:23:05
+     1>2 노드의 "C:\Users\osm96\Desktop\sample\0423\0423\0423.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "소스2.c"
+         소스2.c
+     1>c:\users\osm96\desktop\sample\0423\0423\소스2.c : error C4335: Mac 파일 형식이 발견되었습니다. 소스 파일을 DOS나 UNIX 형식으로 변환하십시오.
+     1>c:\users\osm96\desktop\sample\0423\0423\소스2.c(6): fatal error C1075: 왼쪽 중괄호 '{'(위치: 'c:\users\osm96\desktop\sample\0423\0423\소스2.c(3)')이(가) 짝이 되기 전에 파일의 끝이 나타났습니다.
+     1>"C:\Users\osm96\Desktop\sample\0423\0423\0423.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:00.24
